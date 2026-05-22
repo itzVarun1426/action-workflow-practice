@@ -1,0 +1,17 @@
+name: first-action
+
+on: 
+  push:
+    branches: [main]
+
+jobs:
+  firstaction:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "hey this is trial message"
+        
+    
+    
+    
